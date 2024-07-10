@@ -50,7 +50,7 @@ export default function Home() {
         <Button variant="outlined">Outlined</Button>
       </div>
       <Image
-        src={"/Headshot2021.jpeg"}
+        src={process.env.NEXT_PUBLIC_FILE_LOCATION + "/Headshot2021.jpeg"}
         width={300}
         height={400}
         alt="A picture of me"
