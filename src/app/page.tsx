@@ -20,7 +20,7 @@ function MyButton() {
 
 function MyHeader(){
   return (
-    <h1> Oh boy I'm a header!</h1>
+    <h1>Oh boy Im a header!</h1>
   );
 }
 
